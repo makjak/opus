@@ -30,8 +30,8 @@ end
 
 function Packages:downloadList()
 	local packages = {
-		[ 'develop-1.8' ] = 'https://pastebin.com/raw/WhEiNGZE',
-		[ 'master-1.8' ] = 'https://pastebin.com/raw/pexZpAxt',
+		[ 'develop-1.8' ] = 'https://pastebin.com/raw/udgPHf1m',
+		[ 'master-1.8' ] = 'https://pastebin.com/raw/zG0Raihg',
 	}
 
 	if packages[_G.OPUS_BRANCH] then
