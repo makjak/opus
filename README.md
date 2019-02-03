@@ -14,6 +14,6 @@
 
 ## Install
 ```
-pastebin run uzghlbnc
+pastebin run xjvUkNFy
 reboot
 ```
