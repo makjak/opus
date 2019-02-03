@@ -2,7 +2,7 @@ local PASTEBIN_URL   = 'http://pastebin.com/raw'
 local GIT_URL        = 'https://raw.githubusercontent.com'
 local DEFAULT_PATH   = 'sys/apis'
 local DEFAULT_BRANCH = _ENV.OPUS_BRANCH or _G.OPUS_BRANCH or 'master'
-local DEFAULT_UPATH  = GIT_URL .. '/kepler155c/opus/' .. DEFAULT_BRANCH .. '/sys/apis'
+local DEFAULT_UPATH  = GIT_URL .. '/makjak/opus/' .. DEFAULT_BRANCH .. '/sys/apis'
 
 local fs   = _G.fs
 local http = _G.http
