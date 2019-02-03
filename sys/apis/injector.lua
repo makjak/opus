@@ -125,7 +125,7 @@ return function(env)
 		end
 	end
 
-	-- require('kepler155c.opus.master.sys.apis.util')
+	-- require('makjak.opus.master.sys.apis.util')
 	local function gitSearcher(modname)
 		local fname = modname:gsub('%.', '/') .. '.lua'
 		local _, count = fname:gsub("/", "")
