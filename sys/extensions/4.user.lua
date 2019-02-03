@@ -13,7 +13,7 @@ if not fs.exists('usr/autorun') then
 end
 --if not fs.exists('usr/config/fstab') then
 --	Util.writeFile('usr/config/fstab',
---		'usr gitfs kepler155c/opus-apps/' .. _G.OPUS_BRANCH)
+--		'usr gitfs makjak/opus-apps/' .. _G.OPUS_BRANCH)
 --end
 
 if not fs.exists('usr/config/shell') then
