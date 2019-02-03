@@ -3,7 +3,7 @@ local fs     = _G.fs
 local http   = _G.http
 
 _G.OPUS_BRANCH = 'develop-1.8'
-local GIT_REPO = 'kepler155c/opus/' .. _G.OPUS_BRANCH
+local GIT_REPO = 'makjak/opus/' .. _G.OPUS_BRANCH
 local BASE     = 'https://raw.githubusercontent.com/' .. GIT_REPO
 
 local sandboxEnv = setmetatable({ }, { __index = _G })
